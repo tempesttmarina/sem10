@@ -1,0 +1,84 @@
+/*=====================================
+                Base
+=====================================*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    font: normal 400 1.8rem "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*===================================
+            Composantes
+===================================*/
+
+/*------------Header---------------*/
+header{
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 5;
+    border-top: 4px solid #E25254;
+}
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+header a{
+    color: #474747;
+}
+.logo{
+    font: normal 400 4.2rem "Josefin Sans", sans-serif;
+}
+
+/*-----------Hero------------*/
+
+.hero .wrapper{
+    background-image: url(../images/hero.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 600px;
+    max-width: 1400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.banniere{
+    max-width: 35%;
+    background-color: #E2525499;
+    color: #fff;
+    padding: 55px 30px;
+    margin-right: 100px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.banniere a{
+    display: inline-block;
+    background-color: #C0392B;
+    padding: 10px 20px;
+    color: #fff;
+    align-self: flex-end;
+}
