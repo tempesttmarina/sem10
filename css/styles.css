@@ -25,6 +25,7 @@ a{
 }
 p{
     margin: 0;
+    line-height: 170%;
 }
 
 /*===================================
@@ -175,8 +176,37 @@ h1{
     font: normal 700 3.6rem "Josefin Sans", sans-serif;
     color: #fff;
 }
+.conseils p:not(.c1 p, .c2 p, .c3 p){
+    color: #fff;
+}
 .articles-grid{
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.c1, .c2, .c3{
+    background-color: #fff;
+    padding: 30px;
 }
 /*-----Icones----*/
+.c1 h3::before{
+    color: #474747;
+    content: "star";
+    font-family: "Material Icons";
+    font-size: 3.0rem;
+}
+.c2 h3::before{
+    color: #474747;
+    content: "star_half";
+    font-family: "Material Icons";
+    font-size: 3.0rem;
+}
+.c3 h3::before{
+    color: #474747;
+    content: "star";
+    font-family: "Material Icons";
+    font-size: 3.0rem;
+}
+
+/*-------Footer--------*/
