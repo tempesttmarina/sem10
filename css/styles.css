@@ -210,3 +210,32 @@ h1{
 }
 
 /*-------Footer--------*/
+footer{
+    padding: 20px 0 20px;
+    background-color: #E25254;
+    color: #fff;
+}
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*------Modale------*/
+.mod{
+    color: #C1392B;
+    margin: auto;
+    font-size: 55rem;
+}
+.modale{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: #00000080;
+    display: none;
+}
+.modale.visible{
+    display: flex;
+}
