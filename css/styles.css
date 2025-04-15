@@ -38,6 +38,7 @@ header{
     width: 100%;
     z-index: 5;
     border-top: 4px solid #E25254;
+    /*background-color: #fff;*/
 }
 header .wrapper{
     display: flex;
@@ -51,6 +52,9 @@ header ul{
 }
 header a{
     color: #474747;
+}
+header a:hover{
+    color: #E25254;
 }
 .logo{
     font: normal 400 4.2rem "Josefin Sans", sans-serif;
@@ -71,7 +75,7 @@ header a{
 }
 .banniere{
     max-width: 50%;
-    background-color: #E2525499;
+    background-color: #E2525490;
     color: #fff;
     padding: 55px 30px;
     
@@ -85,6 +89,10 @@ header a{
     color: #fff;
     align-self: flex-end;
     margin-top: 25px;
+}
+.banniere a:hover{
+    background-color: #fff;
+    color: #C0392B;
 }
 h1{
     font: normal 700 4.8rem "Roboto", sans-serif;
@@ -191,6 +199,13 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
+.articles-grid article:hover{
+    background-color: #E25254;
+    color: #fff;
+}
+.articles-grid article:hover h3::before{
+    color: #fff;
+}
 .conseils h3{
     margin: 0 0 40px;
 }
@@ -201,6 +216,9 @@ h1{
 .c1 p:last-of-type{
     align-self: flex-end;
     margin-top: 30px;
+}
+.c1 p:last-of-type:hover{
+    text-decoration: underline;
 }
 .c1, .c2, .c3{
     background-color: #fff;
