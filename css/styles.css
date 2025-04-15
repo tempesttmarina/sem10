@@ -111,11 +111,11 @@ h1{
     gap: 35px;
     margin-top: 30px;
 }
-.articles-tableau > article{
+.articles-tableau article{
     background-color: #fff;
     padding: 30px;
 }
-.articles-tableau > article:hover{
+.articles-tableau article:hover{
     background-color: #E25254;
     color: #fff;
 }
@@ -185,9 +185,20 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
+.conseils h3{
+    margin: 0 0 40px;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+}
+.c1 p:last-of-type{
+    align-self: flex-end;
+    margin-top: 30px;
+}
 .c1, .c2, .c3{
     background-color: #fff;
-    padding: 30px;
+    padding: 40px;
 }
 /*-----Icones----*/
 .c1 h3::before{
@@ -195,6 +206,7 @@ h1{
     content: "star";
     font-family: "Material Icons";
     font-size: 3.0rem;
+    font-variation-settings: 'FILL' 0;
 }
 .c2 h3::before{
     color: #474747;
