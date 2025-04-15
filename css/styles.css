@@ -119,6 +119,12 @@ h1{
     background-color: #E25254;
     color: #fff;
 }
+.articles-tableau article:hover h3::before{
+    color: #fff;
+}
+.articles-tableau article:hover h3{
+    color: #fff;
+}
 .articles-tableau h3{
     font: normal 700 2.2rem "Josefin Sans", sans-serif;
     color: #E25254;
