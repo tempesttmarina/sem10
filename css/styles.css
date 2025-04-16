@@ -227,10 +227,9 @@ h1{
 /*-----Icones----*/
 .c1 h3::before{
     color: #474747;
-    content: "star";
+    content: "star_outline";
     font-family: "Material Icons";
     font-size: 3.0rem;
-    font-variation-settings: 'FILL' 0;
 }
 .c2 h3::before{
     color: #474747;
